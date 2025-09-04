@@ -61,16 +61,17 @@
     <h2>contactanos!</h2>
 
     <form action="" id="formulario">
-        <input type="text">
-        <textarea name="" id=""></textarea>
+
+        <input type="text" id="nombre" placeholder="tu nombre" required/ >
+
+        <textarea name="" id="mensaje" placeholder="aqui puedes escribir tus dudas"></textarea>
 
         <button type="submit">enviar</button>
 
     </form>
 
-
-
 </section>
+
 
 <!--pie de pagina  -->
 
@@ -82,6 +83,33 @@
 
 
 </footer>
+
+
+
+
+<!-- script de java -->
+
+    <script>
+
+        //dom
+
+        document.getElementById("formulario").addEventListener("submit", 
+            function (e){
+                e.preventDefault();
+
+               const nombre = document.getElementById("nombre").value; 
+               const mensaje = document.getElementById("mensaje").value;
+               
+               alert(`gracias ${nombre}, hemos recibido tu mensaje`);
+
+            }
+        )
+
+
+
+    </script>
+
+
 
 
 </body>
