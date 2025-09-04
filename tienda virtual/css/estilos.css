@@ -14,7 +14,7 @@
         margin: 0;
         padding: 0;
         height: 0;
-        background-color: #f0fdf4;
+        background-color: #F5F5DC;
         text-align: center;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         scroll-behavior: smooth;
@@ -23,8 +23,8 @@
 
     footer,
     header{
-      background-color: #14532d;
-      color: #ffff;
+      background-color: #A5D6A7;
+      color: #333333;
       text-align: center;
       padding: 24px;
 
@@ -42,7 +42,7 @@
     }
 
     header nav a{
-        color: #d1fae5;
+        color: #333333;
         margin: 0 15px;
         text-decoration: none;
         font-weight: bold;
@@ -53,7 +53,7 @@
     /* pseudoclases CSS */
 
     header nav a:hover{
-        color: rgb(158, 201, 59);
+        color: #A5D6A7;
         font-size: 20px;
         text-decoration: underline;
         transition: color 0.15s ease;
@@ -61,7 +61,7 @@
     }
 
     header p{
-        color: #d1fae5;
+        color: #333333;
         margin: 10px 0 0;
         font-size: 20px;
 
@@ -98,13 +98,13 @@
 
     .texto{
         flex: 1;
-        color: #1e3a2b;
+        color: #333333;
     }
 
     .texto h2{
         font-size: 24px;
         margin-bottom: 16px;
-        color: #14532d;
+        color: #333333;
         
     }
 

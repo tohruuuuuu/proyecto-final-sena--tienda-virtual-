@@ -3,8 +3,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>delicias gourmet</title>
-    
-    <link rel="stylesheet" href="/estilos.css">
+    <link rel="stylesheet" href="/tienda virtual/css/estilos.css">
+
    
 </head>
 <body>
@@ -47,7 +47,7 @@
 
     <!-- bloque2 -->
      <div class="imagen">
-        <img src="/img/plato-comida.jpg" alt="plato-comida">
+        <img src="/tienda virtual/img/plato-comida.jpg" alt="plato-comida">
 
      </div>
 
@@ -68,6 +68,8 @@
 
         <button type="submit">enviar</button>
 
+        <small id="contador">0/200</small>
+
     </form>
 
 </section>
@@ -86,28 +88,9 @@
 
 
 
-
 <!-- script de java -->
 
-    <script>
-
-        //dom
-
-        document.getElementById("formulario").addEventListener("submit", 
-            function (e){
-                e.preventDefault();
-
-               const nombre = document.getElementById("nombre").value; 
-               const mensaje = document.getElementById("mensaje").value;
-               
-               alert(`gracias ${nombre}, hemos recibido tu mensaje`);
-
-            }
-        )
-
-
-
-    </script>
+    <script src="/tienda virtual/js/scripts.js"></script>
 
 
 
