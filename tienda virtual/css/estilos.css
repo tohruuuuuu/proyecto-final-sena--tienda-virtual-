@@ -319,3 +319,11 @@
             background: rgba(255, 255, 255, 0.3);
             border-color: rgba(255, 255, 255, 0.5);
         }
+
+
+        body.oscuro{
+            background-color: #1e1e1e;
+            color: #e0f2f1;
+            
+
+        }

@@ -89,3 +89,8 @@
 
         // Inicializar contador
         updateCounter();
+
+
+        function cambiarTema(){
+            document.body.classList.toggle("oscuro");
+        }
